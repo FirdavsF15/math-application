@@ -32,6 +32,37 @@ public class MathApp {
         System.out.println();
 
         //Question 4:
+        double workingNumber = 5.0;
+        double sqrtNumber = Math.sqrt(workingNumber);
+        System.out.println("The square root of " + workingNumber + " is " + sqrtNumber);
 
+        System.out.println();
+
+        //Question 5:
+        int x1 = 5, y1 = 10;
+        int x2 = 85, y2 = 50;
+
+        double distanceSquared = Math.pow(Math.abs(x1-x2), 2) + Math.pow(Math.abs(y1-y2), 2);
+        System.out.println("The distance between the two points (5, 10) and (85, 50) is " + Math.sqrt(distanceSquared));
+
+        System.out.println();
+
+        //Question 6:
+        double negativeValue = -3.8;
+        System.out.println("The absolute value is " + Math.abs(negativeValue));
+
+        System.out.println();
+
+        //Question 7:
+        System.out.println(Math.random());
+
+        System.out.println();
+
+        //Question 8:
+        int dayCount = 24;
+        int hoursInDay = 24;
+        int minutesInHour = 60;
+        int minutesInDay = hoursInDay * minutesInHour;
+        System.out.println("There are " + dayCount * minutesInDay + " minutes in " + dayCount + " days."  );
     }
 }
